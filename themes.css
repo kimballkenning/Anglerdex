@@ -1,0 +1,41 @@
+body[data-palette="Midnight reef"]{background:#101c2c}
+#findex[data-palette="Midnight reef"]{--fd-bg:#101c2c;--fd-panel:#182a3a;--fd-ink:#a8e8cf;--fd-muted:#a6bac9;--fd-line:#56798c;--fd-accent:#a8e8cf;--fd-soft:#20394b;color-scheme:dark}
+#findex[data-palette="Midnight reef"] .fd-specimen[aria-pressed=true]{background:#20394b}
+#findex[data-palette="Midnight reef"] .fd-rarity[data-rarity="Rare"]{color:#c5d6ef;background:#29374b;border-color:#7892b2}
+#findex[data-palette="Midnight reef"] .fd-rarity[data-rarity="Legendary"]{color:#edd79b;background:#413b25;border-color:#9f8c51}
+body[data-palette="Pocket color"]{background:#f4ecd6}
+#findex[data-palette="Pocket color"]{--fd-bg:#f4ecd6;--fd-panel:#fff8e8;--fd-ink:#3f4a3b;--fd-muted:#657059;--fd-line:#8d9c75;--fd-accent:#3f4a3b;--fd-soft:#e8e2c4;color-scheme:light}
+#findex[data-palette="Pocket color"] .fd-specimen[aria-pressed=true]{background:#e8e2c4}
+#findex[data-palette="Pocket color"] .fd-rarity[data-rarity="Rare"]{color:#415d7c;background:#dde7ef;border-color:#819aae}
+#findex[data-palette="Pocket color"] .fd-rarity[data-rarity="Legendary"]{color:#725019;background:#f1e4b8;border-color:#b19450}
+body[data-palette="Pocket green"]{background:#dce5bd}
+#findex[data-palette="Pocket green"]{--fd-bg:#dce5bd;--fd-panel:#edf0d5;--fd-ink:#263c2d;--fd-muted:#4c6347;--fd-line:#536d49;--fd-accent:#263c2d;--fd-soft:#c5d4a0;color-scheme:light}
+#findex[data-palette="Pocket green"] .fd-specimen[aria-pressed=true]{background:#c5d4a0}
+body[data-palette="Purple tide"]{background:#20172f}
+#findex[data-palette="Purple tide"]{--fd-bg:#20172f;--fd-panel:#2d223e;--fd-ink:#e7d6ff;--fd-muted:#c0b1d3;--fd-line:#8d739f;--fd-accent:#e7d6ff;--fd-soft:#3b2c4e;color-scheme:dark}
+#findex[data-palette="Purple tide"] .fd-specimen[aria-pressed=true]{background:#3b2c4e}
+#findex[data-palette="Purple tide"] .fd-rarity[data-rarity="Rare"]{color:#c5d6ef;background:#29374b;border-color:#7892b2}
+#findex[data-palette="Purple tide"] .fd-rarity[data-rarity="Legendary"]{color:#edd79b;background:#413b25;border-color:#9f8c51}
+body[data-palette="Earth brown"]{background:#2a211a}
+#findex[data-palette="Earth brown"]{--fd-bg:#2a211a;--fd-panel:#382c22;--fd-ink:#efdfbd;--fd-muted:#cab99c;--fd-line:#9a8261;--fd-accent:#efdfbd;--fd-soft:#47382a;color-scheme:dark}
+#findex[data-palette="Earth brown"] .fd-specimen[aria-pressed=true]{background:#47382a}
+#findex[data-palette="Earth brown"] .fd-rarity[data-rarity="Rare"]{color:#c5d6ef;background:#29374b;border-color:#7892b2}
+#findex[data-palette="Earth brown"] .fd-rarity[data-rarity="Legendary"]{color:#edd79b;background:#413b25;border-color:#9f8c51}
+body[data-palette="Sepia"]{background:#e9d7b4}
+#findex[data-palette="Sepia"]{--fd-bg:#e9d7b4;--fd-panel:#f1e4ca;--fd-ink:#4c3822;--fd-muted:#705438;--fd-line:#9f8056;--fd-accent:#4c3822;--fd-soft:#d6c098;color-scheme:light}
+#findex[data-palette="Sepia"] .fd-specimen[aria-pressed=true]{background:#d6c098}
+#findex[data-palette="Sepia"] .fd-rarity[data-rarity="Rare"]{color:#415d7c;background:#dde7ef;border-color:#819aae}
+#findex[data-palette="Sepia"] .fd-rarity[data-rarity="Legendary"]{color:#725019;background:#f1e4b8;border-color:#b19450}
+body[data-palette="Ink black"]{background:#0c0c0c}
+#findex[data-palette="Ink black"]{--fd-bg:#0c0c0c;--fd-panel:#171717;--fd-ink:#eeeeee;--fd-muted:#b8b8b8;--fd-line:#747474;--fd-accent:#eeeeee;--fd-soft:#252525;color-scheme:dark}
+#findex[data-palette="Ink black"] .fd-specimen[aria-pressed=true]{background:#252525}
+#findex[data-palette="Ink black"] .fd-rarity[data-rarity="Rare"]{color:#c5d6ef;background:#29374b;border-color:#7892b2}
+#findex[data-palette="Ink black"] .fd-rarity[data-rarity="Legendary"]{color:#edd79b;background:#413b25;border-color:#9f8c51}
+body[data-palette="Paper white"]{background:#ffffff}
+#findex[data-palette="Paper white"]{--fd-bg:#ffffff;--fd-panel:#ffffff;--fd-ink:#23282b;--fd-muted:#5a6165;--fd-line:#8b9296;--fd-accent:#23282b;--fd-soft:#eff1f2;color-scheme:light}
+#findex[data-palette="Paper white"] .fd-specimen[aria-pressed=true]{background:#eff1f2}
+#findex[data-palette="Paper white"] .fd-rarity[data-rarity="Rare"]{color:#415d7c;background:#dde7ef;border-color:#819aae}
+#findex[data-palette="Paper white"] .fd-rarity[data-rarity="Legendary"]{color:#725019;background:#f1e4b8;border-color:#b19450}
+#findex input::placeholder,#findex textarea::placeholder{color:var(--fd-muted);opacity:1}
+#findex .ad-footer label{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+#findex #ad-palette{min-height:44px;max-width:100%}
