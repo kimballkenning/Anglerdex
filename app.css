@@ -185,6 +185,8 @@
 @media(max-width:350px){#findex .ad-explore-tools{align-items:flex-end}#findex .fd-grid[data-layout="list"] .fd-specimen{grid-template-columns:34px 92px minmax(0,1fr);column-gap:5px}#findex .fd-grid[data-layout="list"] .fd-art{width:92px}#findex .fd-grid[data-layout="list"] .fd-sprite{width:92px;height:74px}#findex .fd-grid[data-layout="list"] .fd-specimen>strong{font-size:18px}}
 #findex .fd-art[data-water-scene]{position:relative;isolation:isolate;background-position:center;background-repeat:no-repeat;background-size:cover;border:1px solid color-mix(in srgb,var(--fd-line) 72%,transparent)}
 #findex .fd-art[data-water-scene]::before{content:'';position:absolute;inset:0;z-index:0;background:rgba(240,244,220,.12);pointer-events:none}
+#findex .fd-art[data-water-scene="saltwater"]{background-image:url('/backgrounds/saltwater.webp?v=water-scenes-1')}
+#findex .fd-art[data-water-scene="freshwater"]{background-image:url('/backgrounds/freshwater.webp?v=water-scenes-1')}
 #findex .fd-art[data-water-scene] .fd-sprite{position:relative;z-index:1}
 #findex .fd-logo::before{content:none!important}
 #findex .fd-logo{gap:10px;white-space:nowrap}
